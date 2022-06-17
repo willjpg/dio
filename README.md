@@ -1,6 +1,18 @@
-## Contador
+<h2 align="center">Sumário</h2>
+
+<p align="center">
+    <a href="#about">📙 About</a>
+    <a href="#certificados">📜 Certificados</a>
+    <a href="#js">💡 Desafios Js</a>
+    
+</p>
+
+
+
 <!-- 600x300 -->
- <h3>Desafio</h3>
+ <h3 id='js'>1# Desafio - Introdução ao JavaScript</h3>
+
+## Contador
 
 - Tente implementar os eventos usando o método addEventListener.
 
@@ -12,10 +24,12 @@
 <img   src='./assets/Contador.gif' alt='Contador'  ></img>
 </div>
 
-#
-## To-do list
 
-<h3>Desafio<h3>
+
+
+<h3>2# Desafio - Introdução ao JavaScript</h3>
+
+## To-do list
 
 - Crie um campo de input de texto e um botão para adicionar a tarefa à lista;
 - Quando o botão for pressionado, o texto deve aparecer na lista com um checkbox ao lado;
@@ -24,3 +38,14 @@
 <div align='center'>
 <img   src='./assets/To-do list.gif' alt='To-do list'  ></img>
 </div>
+
+
+<h2 id='certificados'>📜Certificados</h2>
+<div align='center'>
+<img   src='https://hermes.digitalinnovation.one/certificates/cover/FDCFD5EC.jpg' alt='IDE Instalação e Configuração(Visual Studio Code)'  ></img>
+<img   src='https://hermes.digitalinnovation.one/certificates/cover/3DBAD8FF.jpg' alt='Introdução ao JavaScript'  ></img>
+<img   src='' alt=''  ></img>
+<img   src='' alt=''  ></img>
+<img   src='' alt=''  ></img>
+</div>
+
