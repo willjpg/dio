@@ -1,7 +1,7 @@
 
 
-var n1= 0
-var n2= 0
+let n1= 0
+let n2= 0
 function comparacao(n1, n2){
     (n1 == n2)? alert(`${n1} e ${n2} são iguais`) : alert(`${n1} e ${n2} são diferentes`)
     
