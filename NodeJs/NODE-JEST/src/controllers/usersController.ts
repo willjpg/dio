@@ -1,8 +1,9 @@
-import { DATABASE } from "../database.js"
+import { Request, Response } from "express"
+import { DATABASE } from "../database"
 
-const USERS_CONTROLLER = {
+export class UsersController{
 
-    criarUsuario : (request, response) => {
+    criarUsuario(request: Request, response: Response): Response {
         const { name } = request.body
     
         if(name.length < 2){
@@ -11,12 +12,10 @@ const USERS_CONTROLLER = {
     
         DATABASE.push(name)
         return response.status(201).json({'mensagem': `Usuário ${name} criado`})
-    },
+    }
 
-    listarUsuario (request, response) {
+    listarUsuario (request: Request, response: Response): Response  {
         return response.status(200).json(DATABASE);
 
     }
 }
-
-export { USERS_CONTROLLER }

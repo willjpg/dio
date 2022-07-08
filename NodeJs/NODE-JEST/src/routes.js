@@ -1,12 +1,13 @@
-import { request, Router } from "express";
-import { USERS_CONTROLLER } from "./controllers/usersController.js";
+import { Router } from "express";
+import { UsersController } from "./controllers/usersController.js";
 
 
 const routes = Router();
+const usersController = new UsersController();
 
 
-routes.get('/users', USERS_CONTROLLER.listarUsuario)
+routes.get('/users', usersController.listarUsuario)
 
-routes.post('/users', USERS_CONTROLLER.criarUsuario)
+routes.post('/users', usersController.criarUsuario)
 
 export { routes }
