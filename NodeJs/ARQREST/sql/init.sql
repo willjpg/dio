@@ -7,5 +7,4 @@ CREATE TABLE IF NOT EXISTS application_user(
     password VARCHAR NOT NULL,
     PRIMARY KEY (uuid)
 )
-
-INSERT INTO application_user (username, password) VALUES('Will', crypt('admin', 'my_salt'));
+INSERT INTO application_user (username, password) VALUES('will', crypt('admin', 'my_salt'));
