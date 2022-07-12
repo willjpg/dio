@@ -1,4 +1,5 @@
-import express, {Request, Response, NextFunction} from 'express';
+import express from 'express';
+import statusRoute from './routes/status.route';
 import usersRoute from './routes/users.route';
 
 
@@ -9,12 +10,7 @@ app.use(express.urlencoded({ extended: true}));
 
 // Configuração de Rotas
 app.use(usersRoute);
-
-
-app.get('/status',(req: Request, res: Response, next:NextFunction)=> { 
-    res.status(200).send({ foo: 'Sucesso'});
-
-});
+app.use(statusRoute);
 
 // Inicialização do servidor
 app.listen(3000,()=>{
