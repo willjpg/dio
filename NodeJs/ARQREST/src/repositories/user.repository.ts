@@ -26,8 +26,15 @@ class UserRepository{
         `;
         const values = [uuid];
 
-        const {rows} = await db.query<User>(query, values);
+        const { rows } = await db.query<User>(query, values);
+        const [ user ] = rows;
+        
+        return user;
+    
+    
     }
+
+
 
 }
 
