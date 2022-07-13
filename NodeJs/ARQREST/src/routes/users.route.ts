@@ -1,7 +1,6 @@
 
 import { NextFunction, Request, Response, Router } from "express";
 import { StatusCodes } from 'http-status-codes';
-import DatabaseError from "../models/errors/database.error.model";
 import userRepository from "../repositories/user.repository";
 
 
@@ -26,12 +25,7 @@ usersRoute.get('/users/:uuid', async (req: Request<{ uuid: string }>, res: Respo
         const user = await userRepository.findById(uuid);
         res.status(StatusCodes.OK).send(user);
     } catch (error) {
-        if (error instanceof DatabaseError) {
-            res.sendStatus(StatusCodes.BAD_REQUEST);
-
-        } else {
-            res.sendStatus(StatusCodes.INTERNAL_SERVER_ERROR);
-        }
+        next(error);
     }
 
 
