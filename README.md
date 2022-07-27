@@ -46,7 +46,12 @@
 <div align='center'>
 <img   src='https://hermes.digitalinnovation.one/certificates/cover/FDCFD5EC.jpg' alt='IDE Instalação e Configuração(Visual Studio Code)'  ></img>
 <img   src='https://hermes.digitalinnovation.one/certificates/cover/3DBAD8FF.jpg' alt='Introdução ao JavaScript'  ></img>
-<img   src='' alt=''  ></img>
+<img   src='https://hermes.digitalinnovation.one/certificates/cover/0420FA70.jpg' alt=''  ></img>
+<img   src='https://hermes.digitalinnovation.one/certificates/cover/26A11B7A.jpg' alt=''  ></img>
+<img   src='https://hermes.digitalinnovation.one/certificates/cover/7EC2EC8F.jpg' alt=''  ></img>
+<img   src='https://hermes.digitalinnovation.one/certificates/cover/540AF4D5.jpg' alt=''  ></img>
+<img   src='https://hermes.digitalinnovation.one/certificates/cover/7077D44D.jpg' alt=''  ></img>
+<img   src='https://hermes.digitalinnovation.one/certificates/cover/2AE335DD.jpg' alt=''  ></img>
 <img   src='' alt=''  ></img>
 <img   src='' alt=''  ></img>
 </div>
