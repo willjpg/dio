@@ -4,6 +4,7 @@
     <a href="#about">📙 About</a>
     <a href="#certificados">📜 Certificados</a>
     <a href="#js">💡 Desafios Js</a>
+    <a href="#react">⚛️ Desafios ReactJS</a>
     
 </p>
 
@@ -40,6 +41,25 @@
 <div align='center'>
 <img   src='./assets/To-do list.gif' alt='To-do list'  ></img>
 </div>
+
+## 
+
+ <h3 id='react'>1# Desafio - Criando um front-end totalmente componentizado na prática com ReactJS</h3>
+ 
+## API Github
+
+- Agora é a sua hora! Crie uma solução que explore os conceitos apresentados em um projeto prático. Para isso, você pode reproduzir a solução criada neste Desafio de Projeto ou, caso se sinta preparado, desenvolver algo novo ;-)
+
+### Tecnologias
+- Styled Components
+- Axios
+
+
+<div align='center'>
+<img   src='https://i.imgur.com/HkY8MW1.gif' alt='Contador'  ></img>
+</div>
+
+Acesse o [Repositório](https://github.com/willjpg/dio/tree/main/ReactJs/Desafios/api-github)
 
 
 <h2 id='certificados'>📜Certificados</h2>
