@@ -5,6 +5,7 @@
     <a href="#certificados">📜 Certificados</a>
     <a href="#js">💡 Desafios Js</a>
     <a href="#react">⚛️ Desafios ReactJS</a>
+    <a href="#HCSS">🎨 Desafios HTML/CSS</a>
     
 </p>
 
@@ -56,10 +57,29 @@
 
 
 <div align='center'>
-<img   src='https://i.imgur.com/HkY8MW1.gif' alt='Contador'  ></img>
+<img   src='https://i.imgur.com/HkY8MW1.gif' alt='Gif do Projeto'  ></img>
 </div>
 
 Acesse o [Repositório](https://github.com/willjpg/dio/tree/main/ReactJs/Desafios/api-github)
+
+## 
+
+ <h3 id='HCSS'>1# Desafio - Recriando a página inicial do Instagram com HTML e CSS</h3>
+ 
+## Pagina de Login do Instagram
+
+- Nesse projeto você terá o desafio de reconstruir a página de login do Instagram. Para isso, é recomendado o uso de CSS com Flexbox, uma das abordagens de posicionamento de elementos mais utilizadas quando se trata de responsividade. Além disso, a expert disponibiliza todo o material necessário em seu GitHub para que você possa utilizá-lo como referência para a sua solução.
+
+### Tecnologias
+- HTML
+- CSS
+
+
+<div align='center'>
+<img   src='https://i.imgur.com/JExz7Ba.png' alt='Foto da Página de Login do Instagram'  ></img>
+</div>
+
+Acesse o [Repositório](https://github.com/willjpg/dio/tree/main/Html-Css/instagram-dio)
 
 
 <h2 id='certificados'>📜Certificados</h2>
