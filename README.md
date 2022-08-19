@@ -84,6 +84,7 @@ Acesse o [Repositório](https://github.com/willjpg/dio/tree/main/Html-Css/instag
 
 <h2 id='certificados'>📜Certificados</h2>
 <div align='center'>
+<img   src='https://hermes.digitalinnovation.one/certificates/cover/834F4804.jpg' alt=''  ></img>
 <img   src='https://hermes.digitalinnovation.one/certificates/cover/FDCFD5EC.jpg' alt='IDE Instalação e Configuração(Visual Studio Code)'  ></img>
 <img   src='https://hermes.digitalinnovation.one/certificates/cover/3DBAD8FF.jpg' alt='Introdução ao JavaScript'  ></img>
 <img   src='https://hermes.digitalinnovation.one/certificates/cover/0420FA70.jpg' alt=''  ></img>
